@@ -31,6 +31,7 @@ function BookList() {
                     <p className="text-gray-600 mb-1">Автор: {book.author}</p>
                     <p className="text-gray-600 mb-1">Год: {book.year}</p>
                     <p className="text-gray-600 mb-3">Жанр: {book.genre}</p>
+                    <p className="py-2">Жанр: {book.description ? `${book.description.substring(0, 50)}${book.description.length > 50 ? '...' : ''}` : 'Нет описания'}</p>
                     <Link 
                         to={`/books/${book.id}`} 
                         className="text-blue-600 hover:text-blue-800 py-2 font-medium"
