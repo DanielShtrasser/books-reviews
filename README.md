@@ -12,7 +12,7 @@
 1. Клонируйте репозиторий:
 
     ```
-    git clone <URL_РЕПОЗИТОРИЯ>
+    git clone https://github.com/DanielShtrasser/books-reviews
     cd book-reviews
     ```
 
